@@ -44,7 +44,7 @@
 &trans   &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans  &trans     &kp C_MUTE    &kp C_PLAY_PAUSE 
 &kp CAPS &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans             &kp C_VOL_UP
 &kp RCTRL   &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PREV &kp C_VOL_DN  &kp C_NEXT
-                         &trans  &kpRGUI  &trans  &trans     &kp BSPC  &kp INS &trans  &trans
+                         &trans  &kp RGUI  &trans  &trans     &kp BSPC  &kp INS &trans  &trans
 			>;
 		};
 
