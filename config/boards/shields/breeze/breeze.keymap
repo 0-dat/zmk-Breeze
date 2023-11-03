@@ -89,7 +89,7 @@
 //                       |        |        |  Lay1  |  LWin  |  |  RAlt  | Lay2 |       |       |
 			bindings = <
 &trans   &trans   &trans  &trans  &trans  &trans                          &trans     &trans     &trans     &trans      &trans      &trans    &trans  &trans  &trans    
-&trans   &kp ESC  &trans  &trans  &trans  &trans                          &trans     &trans     &trans     &kp DEL     &kp BKSP    &trans    &trans  &trans  &trans 
+&trans   &kp ESC  &trans  &trans  &trans  &trans                          &trans     &trans     &trans     &kp DEL     &kp BSPC    &trans    &trans  &trans  &trans 
 &trans   &kp TAB  &trans  &trans  &trans  &trans                          &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER   &trans            &trans
 &trans   &to 4    &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans
                           &trans  &trans  &to 0  &kp LMETA      &kp RALT  &to 1       &trans     &trans
@@ -106,7 +106,7 @@
 //                   |      |      |  Lay1  |  LGUI  |  |  RALT  | Lay2 |       |       |
 			bindings = <
 &trans   &trans  &trans  &trans  &trans         &trans                           &trans        &trans     &trans     &trans     &trans     &trans    &trans  &trans  &trans    
-&trans   &trans  &trans  &trans  &kp KP_DIVIDE  &kp KP_MULTIPLY                  &kp KP_MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp BKSP   &trans    &trans  &trans  &trans 
+&trans   &trans  &trans  &trans  &kp KP_DIVIDE  &kp KP_MULTIPLY                  &kp KP_MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp BSPC   &trans    &trans  &trans  &trans 
 &trans   &trans  &trans  &trans  &trans         &kp KP_PLUS                      &kp KP_EQUAL  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp ENTER  &trans            &trans
 &trans   &trans  &trans  &trans  &kp KP_COMMA   &kp KP_DOT                       &kp KP_N0     &kp KP_N1  &kp KP_N2  &kp KP_N3  &to 2      &trans    &trans  &trans  &trans
                                 &trans  &trans  &to 0  &kp LMETA       &kp RALT  &to 1   &trans  &trans
