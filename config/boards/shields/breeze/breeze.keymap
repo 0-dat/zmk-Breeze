@@ -8,7 +8,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/ext_power.h>
 
 &mt {
@@ -93,11 +92,11 @@
 // |     | Lay5 |        |        |        |        |                    | LClk |  RClk | MClk  |  Ms4  |  Ms5  |     | |     |      |      | 
 //                       |        |        |  Lay1  |  LWin  |  |  RAlt  | Lay2 |       |       |
 			bindings = <
-&trans   &trans   &trans            &trans          &trans             &trans                          &trans     &trans     &trans     &trans      &trans      &trans    &trans  &trans  &trans    
-&trans   &kp ESC  &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &mwh SCROLL_UP                  &trans     &trans     &trans     &kp DEL     &kp BKSP    &trans    &trans  &trans  &trans 
-&trans   &kp TAB  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &mwh SCROLL_DOWN                &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER   &trans            &trans
-&trans   &to 4    &trans            &trans          &trans             &trans                          &mkp LCLK  &mkp RCLK  &mkp MCLK  &mkp uint4  &mkp uint5  &trans    &trans  &trans  &trans
-                                                       &trans  &trans  &to 0  &kp LMETA      &kp RALT  &to 1       &trans     &trans
+&trans   &trans   &trans  &trans  &trans  &trans                          &trans     &trans     &trans     &trans      &trans      &trans    &trans  &trans  &trans    
+&trans   &kp ESC  &trans  &trans  &trans  &trans                          &trans     &trans     &trans     &kp DEL     &kp BKSP    &trans    &trans  &trans  &trans 
+&trans   &kp TAB  &trans  &trans  &trans  &trans                          &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER   &trans            &trans
+&trans   &to 4    &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans
+                          &trans  &trans  &to 0  &kp LMETA      &kp RALT  &to 1       &trans     &trans
 						   
 			>;
 		};
