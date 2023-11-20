@@ -31,16 +31,16 @@
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 // |      |      |     |        |        |      |                        |      |        |        |      |        |      | |     |      |      |
-// |      |   Q  |  W  |  E     |  R     |  T   |                        |  Y   |   U    |   I    |  O   | P/BKSP |      | |     |      |      |
+// |      |   Q/ESC  |  W  |  E     |  R     |  T   |                        |  Y   |   U    |   I    |  O   | P/BKSP |      | |     |      |      |
 // |     | A/TAB  |  S  | D/LALT | F/LSUP |  G   |                      | H/RET | J/RSup | K/RAlt |  L   |   ;   |       | |     |      |      |
 // |       |  Z  |  X  |  C     |  V     |  B   |                        |  N   |   M    |   ,    |  .   |   /   |       | |     |      |      |
-//                     |      |      | MEH/SPACE  | LSHIFT |         | RCTRL |     | Lay2 |       |
+//                   |      | RCTRL | MEH/SPACE  | LSHIFT |         | LCTRL |     | Lay2 |       |
 			bindings = <
 &trans  &trans &trans &trans      &trans      &trans                           &trans   &trans   &trans    &trans  &trans   &trans    &trans  &trans  &trans
-&trans  &kp Q  &kp W  &kp E       &kp R       &kp T                            &kp Y    &kp U    &kp I     &kp O   &hm BKSP P    &trans    &trans  &trans  &trans
+&trans  &hm ESC Q  &kp W  &kp E       &kp R       &kp T                            &kp Y    &kp U    &kp I     &kp O   &hm BKSP P    &trans    &trans  &trans  &trans
 &trans  &hm TAB A  &kp S  &hm LALT D  &hm LGUI F  &kp G                        &hm ENTER H    &hm RGUI J  &hm RALT K  &kp L   &kp SEMI &trans            &trans 
 &trans  &kp Z  &kp X  &kp C       &kp V       &kp B                            &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &trans    &trans  &trans  &trans
-                    &trans &trans &mt LC(LS(LALT)) SPC  &sk LSHIFT    &sk RCTRL &trans     &to 1   &trans
+                    &trans &sk RCTRL &mt LC(LS(LALT)) SPC  &sk LSHIFT    &sk LCTRL &trans     &to 1   &trans
 			>;
 		};
 
@@ -50,13 +50,13 @@
 // |      |  1!   |    2@   |  3#  |  4$  |  5%  |                        |  6^  |  7&  |  8*  |  9(  |   0)/BKSP  |       | |      |      |      | 
 // |      |  ESC  |    `~   |  -_  |  =+  | PgUp |                        |  '"  |  [{  |  ]}  |  \|  | ENTER |       | |      |      |      | 
 // |      |  TAB  | PrntScn | LCTRL | LC+LS | PgDn |                      | HOME |  END | INS  | DEL  | BACK  |       | |      |      |      | 
-//                       |      |      | MEH/SPACE | LSHIFT |      |  RALT  | Lay1 | Lay3 |      |
+//                       |      | LGUI | MEH/SPACE | LSHIFT |      |  RALT  | Lay1 | Lay3 |      |
 			bindings = <
 &trans   &trans   &trans     &trans     &trans     &trans                          &trans    &trans    &trans    &trans    &trans   &trans    &trans  &trans  &trans    
 &trans   &kp N1   &kp N2     &kp N3     &kp N4     &kp N5                          &kp N6    &kp N7    &kp N8    &kp N9    &hm BKSP N0   &trans    &trans  &trans  &trans 
 &trans   &kp ESC  &kp GRAVE  &kp MINUS  &kp EQUAL  &kp PG_UP                       &kp SQT   &kp LBKT  &kp RBKT  &kp BSLH  &kp RET  &trans            &trans
 &trans   &kp TAB  &kp PSCRN  &sk LCTRL     &sk LS(LCTRL)     &kp PG_DN         &kp HOME  &kp END   &kp INS   &kp DEL   &kp BKSP    &trans    &trans  &trans  &trans
-                                   &trans  &trans  &trans  &sk LSHIFT     &sk RALT  &to 0  &to 2  &trans
+                                   &trans  &sk LGUI  &trans  &sk LSHIFT     &sk RALT  &to 0  &to 2  &trans
 			>;
 		};
 
