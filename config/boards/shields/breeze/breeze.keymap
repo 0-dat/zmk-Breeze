@@ -34,7 +34,7 @@
 // |      |   Q/ESC  |  W  |  E     |  R     |  T   |                        |  Y   |   U    |   I    |  O   | P/BKSP |      | |     |      |      |
 // |     | A/TAB  |  S  | D/LALT | F/LSUP |  G   |                      | H/RET | J/RSup | K/RAlt |  L   |   ;   |       | |     |      |      |
 // |       |  Z  |  X  |  C     |  V     |  B   |                        |  N   |   M    |   ,    |  .   |   /   |       | |     |      |      |
-//                   |      | LGUI | MEH/SPACE  | LSHIFT |         | LCTRL |     | Lay2 |       |
+//                   |      | LSuper | MEH/SPACE  | LSHIFT |         | LCTRL |     | Lay2 |       |
 			bindings = <
 &trans  &trans &trans &trans      &trans      &trans                           &trans   &trans   &trans    &trans  &trans   &trans    &trans  &trans  &trans
 &trans  &hm ESC Q  &kp W  &kp E       &kp R       &kp T                            &kp Y    &kp U    &kp I     &kp O   &hm BKSP P    &trans    &trans  &trans  &trans
@@ -50,7 +50,7 @@
 // |      |  1!   |    2@   |  3#  |  4$  |  5%  |                        |  6^  |  7&  |  8*  |  9(  |   0)/BKSP  |       | |      |      |      | 
 // |      |  ESC  |    `~   |  -_  |  =+  | PgUp |                        |  '"  |  [{  |  ]}  |  \|  | ENTER |       | |      |      |      | 
 // |      |  TAB  | PrntScn | LCTRL | LC+LS | PgDn |                      | HOME |  END | INS  | DEL  | BACK  |       | |      |      |      | 
-//                       |      | LGUI | MEH/SPACE | LSHIFT |      |  RALT  | Lay1 | Lay3 |      |
+//                       |      | LSuper | MEH/SPACE | LSHIFT |      |  RALT  | Lay1 | Lay3 |      |
 			bindings = <
 &trans   &trans   &trans     &trans     &trans     &trans                          &trans    &trans    &trans    &trans    &trans   &trans    &trans  &trans  &trans    
 &trans   &kp N1   &kp N2     &kp N3     &kp N4     &kp N5                          &kp N6    &kp N7    &kp N8    &kp N9    &hm BKSP N0   &trans    &trans  &trans  &trans 
