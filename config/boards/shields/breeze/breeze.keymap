@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #define MEH(k7) &mt LC(LS(LALT)) k7
-#define HMR(k1,k2,k3) &hm LCTRL k1  &hm LALT k2  &hm SUPER k3
-#define HML(k4,k5,k6) &hm SUPER k4  &hm LALT k5  &hm LCTRL k6
+#define HMR(k1,k2,k3) &hm RCTRL k1  &hm RALT k2  &hm RCMD k3
+#define HML(k4,k5,k6) &hm LCMD k4  &hm LALT k5  &hm LCTRL k6
 #define BLU(b1) &bt BT_SEL b1
 
 / {
