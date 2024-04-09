@@ -9,9 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-#define MEH(k1) &mt LC(LS(LALT)) k1
+#define MEH(k7) &mt LC(LS(LALT)) k7
 #define HMR(k1,k2,k3) &hm LCTRL k1  &hm LALT k2  &hm SUPER k3
-#define HML(k1,k2,k3) &hm SUPER k1  &hm LALT k2  &hm LCTRL k3
+#define HML(k4,k5,k6) &hm SUPER k4  &hm LALT k5  &hm LCTRL k6
 #define BLU(b1) &bt BT_SEL b1
 
 / {
