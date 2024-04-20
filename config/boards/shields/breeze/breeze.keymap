@@ -37,7 +37,7 @@
 			bindings = <
    &trans   &trans    &trans    &trans    &trans     &trans         &trans    &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans
    &trans   &hm ESC Q &kp W     &kp E     &kp R      &kp T          &kp Y     &kp U     &kp I     &kp O   &hm BKSP P  &trans      &trans    &trans    &trans 
-   &trans   &hm TAB A   HML(S,  D,        F)         &kp G          &kp H     HMR(J,      K,         L)     &kp SEMI  &trans                &trans 
+   &trans   &hm TAB A   HML(S,  D,        F)         &kp G          &kp H     &hm RCMD J  &hm RALT K  &hm RCTRL L  &kp SEMI  &trans         &trans 
    &trans   &kp Z     &kp X     &kp C     &kp V      &kp B          &kp N     &kp M     &kp COMMA  &kp DOT   &kp FSLH  &trans      &trans    &trans    &trans
          &trans   &kp LSHIFT     &mo 2  &mt LC(LS(LALT)) SPC         &kp RET   &mo 1  &kp RSHIFT     &trans
 			>;
