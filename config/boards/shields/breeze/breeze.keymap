@@ -35,11 +35,22 @@
 
 		default_layer {
 			bindings = <
-   &trans   &trans    &trans    &trans    &trans     &trans         &trans    &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans
-   &trans   &hm ESC Q &kp W     &kp E     &kp R      &kp T          &kp Y     &kp U     &kp I     &kp O    &hm BKSP P &trans      &trans    &trans    &trans 
-   &trans   &hm TAB A   HML(S,  D,        F)         &kp G          &kp H     HMR(J,      K,         L)     &kp SEMI  &trans                &trans 
-   &trans   &kp Z     &kp X     &kp C     &kp V      &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &trans      &trans    &trans    &trans
-                       &trans   &mo 2     &kp LSHIFT MEH(SPC)       &kp RET   &kp RSHIFT &mo 1     &trans
+//┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓    ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓
+//┃         ┃         ┃         ┃         ┃         ┃         ┃    ┃         ┃         ┃         ┃         ┃         ┃         ┃ ┃         ┃         ┃         ┃
+  &trans   &trans    &trans    &trans    &trans     &trans         &trans    &trans    &trans    &trans    &trans    &trans      &trans    &trans    &trans 
+//┠─────────╀─────────╀─────────╀─────────╀─────────╀─────────┨    ┠─────────╀─────────╀─────────╀─────────╀─────────╀─────────┨ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
+//┃         │ Q/ᵉˢᶜ   │  W      │ E       │ R       │ T       ┃    ┃  Y      │  U      │  I      │  O      │ P/BKSP  │         ┃ ┃         ┃         ┃         ┃
+  &trans   &hm ESC Q &kp W     &kp E     &kp R      &kp T          &kp Y     &kp U     &kp I     &kp O    &hm BKSP P &trans      &trans    &trans    &trans 
+//┠─────────┼─────────┼─────────┼─────────┼─────────┼─────────┨    ┠─────────┼─────────┼─────────┼─────────┼─────────┼─────────┨ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛
+//┃         │ A/tab   │  S/alt  │ D/ctrl  │ F/win   │  G      ┃    ┃ H       │ J/win   │ K/alt   │ L/ctrl  │  ;      │         ┃           ┃         ┃
+  &trans   &hm TAB A   HML(S,  D,        F)         &kp G          &kp H     HMR(J,      K,         L)     &kp SEMI  &trans                &trans
+//┠─────────┼─────────┼─────────┼─────────┼─────────┼─────────┨    ┠─────────┼─────────┼─────────┼─────────┼─────────┼─────────┨ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓
+//┃         │ Z       │ X       │ C       │ V       │ B       ┃    ┃ N       │ M       │ <,      │ >.      │ ?/      │         ┃ ┃         ┃         ┃         ┃
+  &trans   &kp Z     &kp X     &kp C     &kp V      &kp B          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &trans      &trans    &trans    &trans
+//┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┨    ┣━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━╀━━━━━━━━━┷━━━━━━━━━┛ ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛
+//                    ┃        │ Layer 3 │ Shift   │ Space   ┃    ┃ Enter   │ SHIFT   │ Layer 2 │         ┃
+                      &trans   &mo 2     &kp LSHIFT MEH(SPC)       &kp RET   &kp RSHIFT &mo 1     &trans 
+//                    ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛    ┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
 			>;
 		};
 
